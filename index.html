@@ -1,168 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css">
-        <title>AED</title>
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <header>
-            <nav id="nav_bar">
-                <ul>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">RETREAT</a></li>
-                    <li><a href="#">TELEMEDICINE</a></li>
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">KNOWLEDGE CENTRE</a></li>
-
-                </ul>
-                <img src="images/logo.png" alt="logo">
-                <div class="nav_right">
-                    <a href="#">Access My Body</a>
-                    <a href="#">Book Retreat</a>
-                </div>
-            </nav>
-            <div id="carouselExampleIndicators" class="carousel slide"
-                data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators"
-                        data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators"
-                        data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators"
-                        data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators"
-                        data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-
-                        <img class="d-block w-100" src="images/1.jpg"
-                            alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>AYURVEDA EMBASSY ALLIANCE</h5>
-                            <p>NATURE AND HUMANS</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/2.jpg"
-                            alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>AYURVEDA EMBASSY ALLIANCE</h5>
-                            <p>NATURE AND HUMANS</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/3.jpg"
-                            alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>AYURVEDA EMBASSY ALLIANCE</h5>
-                            <p>NATURE AND HUMANS</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/4.jpeg"
-                            alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>AYURVEDA EMBASSY ALLIANCE</h5>
-                            <p>NATURE AND HUMANS</p>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev"
-                    href="#carouselExampleIndicators" role="button"
-                    data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next"
-                    href="#carouselExampleIndicators" role="button"
-                    data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>AED</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav id="nav_bar">
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">RETREAT</a></li>
+          <li><a href="#">TELEMEDICINE</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">KNOWLEDGE CENTRE</a></li>
+        </ul>
+        <img src="images/logo.png" alt="logo" />
+        <div class="nav_right">
+          <a href="#">Access My Body</a>
+          <a href="#">Book Retreat</a>
+        </div>
+      </nav>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel carousel_head slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/1.jpg" alt="First slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>AYURVEDA EMBASSY ALLIANCE</h5>
+              <p>NATURE AND HUMANS</p>
             </div>
-        </header>
-        <main>
-            <section class="section sec_first">
-                <div class="call_query">
-                    <h5>CALL OUR RESERVATION & QUERIES HELPLINE</h5>
-                    <a href="tel:06006544979">CALL NOW</a>
-                </div>
-            </section>
-            <section class="section sec_second">
-                <div><img src="images/logo_only.png" alt="logo"></div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/2.jpg" alt="Second slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>AYURVEDA EMBASSY ALLIANCE</h5>
+              <p>NATURE AND HUMANS</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/3.jpg" alt="Third slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>AYURVEDA EMBASSY ALLIANCE</h5>
+              <p>NATURE AND HUMANS</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/4.jpeg" alt="Third slide" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>AYURVEDA EMBASSY ALLIANCE</h5>
+              <p>NATURE AND HUMANS</p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="section sec_first">
+        <div class="call_query">
+          <h5>CALL OUR RESERVATION & QUERIES HELPLINE</h5>
+          <a href="tel:06006544979">CALL NOW</a>
+        </div>
+      </section>
+      <section class="section sec_second">
+        <div><img src="images/logo_only.png" alt="logo" /></div>
 
-                <div class="text">
-                    <P> Welcome to AYURVEDA EMBASSY ALLIANCE</P>
-                    Ayurveda is one of the most renowned
-                    traditional systems of medicine that has
-                    survived and flourished from ages till date. With the
-                    enormous knowledge of
-                    nature based medicine, the relationship of human body
-                    constitution and function
-                    to nature and the elements of the universe that act in
-                    coordination and affect
-                    the living beings, this system will continue to flourish
-                    in ages still to come.
-                    There are many avenues still to be explored by the
-                    researchers, practitioners
-                    and experts in the field who carry the responsibility of
-                    keeping the traditional
-                    systems of medicine (TSMs) alive and contributing to
-                    their growth in the future.
-                    However, due to many barriers such as lack of literature
-                    sources in different
-                    languages and insufficiency of awareness about the basic
-                    principles and
-                    histories of the systems from different ethnic origins,
-                    there is a lacuna of
-                    exchange of information from systems around the globe.
-                    Knowledge of systems from
-                    different ethnic origins would bring about interchange
-                    of knowledge and increase
-                    the understanding of different systems, and this can
-                    ultimately contribute to
-                    integration and advancement of herbal drug research when
-                    accompanied by
-                    collaborative work of researchers from different
-                    countries. These futuristic
-                    goals can be accomplished when one gains insights about
-                    the systems, the
-                    principles and histories and works upon the
-                    strengthening aspects common between
-                    the various TSMs. In this review, we have made an
-                    attempt to put forth the basic
-                    principles of doctrine and history of Ayurveda to
-                    contribute to the above said
-                    perspectives.
-                    <a href="#"><i class="fa fa-chevron-down"
-                            aria-hidden="true"></i></a>
-                </div>
-            </section>
-        </main>
+        <div class="text">
+          <p>Welcome to AYURVEDA EMBASSY ALLIANCE</p>
+          Ayurveda is one of the most renowned traditional systems of medicine
+          that has survived and flourished from ages till date. With the
+          enormous knowledge of nature based medicine, the relationship of human
+          body constitution and function to nature and the elements of the
+          universe that act in coordination and affect the living beings, this
+          system will continue to flourish in ages still to come. There are many
+          avenues still to be explored by the researchers, practitioners and
+          experts in the field who carry the responsibility of keeping the
+          traditional systems of medicine (TSMs) alive and contributing to their
+          growth in the future. However, due to many barriers such as lack of
+          literature sources in different languages and insufficiency of
+          awareness about the basic principles and histories of the systems from
+          different ethnic origins, there is a lacuna of exchange of information
+          from systems around the globe. Knowledge of systems from different
+          ethnic origins would bring about interchange of knowledge and increase
+          the understanding of different systems, and this can ultimately
+          contribute to integration and advancement of herbal drug research when
+          accompanied by collaborative work of researchers from different
+          countries. These futuristic goals can be accomplished when one gains
+          insights about the systems, the principles and histories and works
+          upon the strengthening aspects common between the various TSMs. In
+          this review, we have made an attempt to put forth the basic principles
+          of doctrine and history of Ayurveda to contribute to the above said
+          perspectives.
+          <a href="#"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+        </div>
+      </section>
+      <section class="section sec_third">
+        <div class="holder">
+          <img src="images/4.jpeg" alt="testing" />
+          <div class="in_holder">
+            <h2>AYURVEDA RETREAT</h2>
+            <p>
+              Mekosha, Kerala is proud to be India’s first Luxury Ayurveda
+              Resort & Retreat offering a Bespoke Wellness Regime, All-Inclusive
+              Wellness Experience right from the comfort of your Spasuite’s
+              In-Suite Treatment Area. Learn more about our retreats, packages
+              and accommodation
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="holder reverse">
+          <img src="images/1.jpg" alt="testing" />
+          <div class="in_holder">
+            <h2>AYURVEDA PACKAGES</h2>
+            <p>
+              Our Ayurvedic Resort is the only place that offers “Bespoke
+              Transformation” i.e. a completely customizable, all-inclusive
+              Ayurvedic program. We encourage your therapies, dining & sleep to
+              be at the time that works best for your body.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="holder">
+          <img src="images/2.jpg" alt="testing" />
+          <div class="in_holder">
+            <h2>ALL INCLUSIVE YOGA, MEDITATION & DINING</h2>
+            <p>
+              Our Ayurvedic Resort encourages looking within to feel the
+              calmness of yogic practices that go hand in hand with Ayurveda.
+              Following Ayurvedic principles, but without limiting the palate to
+              bland flavours, each meal at Mekosha is expertly curated by 5-star
+              chefs, freshly cooked using organic ingredients & can be
+              personalized to your taste. Yoga, meditation & dining is included
+              in all Ayurveda retreat packages.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="holder reverse">
+          <img src="images/3.jpg" alt="testing" />
+          <div class="in_holder">
+            <h2>ONLINE DOCTOR CONSULTATION</h2>
+            <p>
+              Mekosha offers India’s best Ayurveda online consultation with
+              qualified Ayurveda doctors for those that require guidance and
+              support for a wide range of treatments. A long standing history of
+              helping patients at our retreats is now getting extended for you
+              to avail from the comfort of your home.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="holder">
+          <img src="images/4.jpeg" alt="testing" />
+          <div class="in_holder">
+            <h2>AYURVEDA COURSES</h2>
+            <p>
+              Deciding to embark on the journey of learning Ayurveda is the same
+              as embarking on a journey to learn more about yourself. Mekosha
+              offers a free course on Ayurveda for anyone wishing to adopt a
+              truly balancing and blissful way of life.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <div class="section img_sec">
+        <h2>REDISCOVER NATURE</h2>
+      </div>
+      <section>
+        <div id="testimonial" class="carousel testi slide" data-ride="carousel">
+          <h2>What customers are saying</h2>
+          <ol class="carousel-indicators">
+            <li
+              data-target="#testimonial"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#testimonial" data-slide-to="1"></li>
+            <li data-target="#testimonial" data-slide-to="2"></li>
+            <li data-target="#testimonial" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div>
+                <img src="images/1.jpg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+                  architecto magni possimus reiciendis eum eius nihil voluptates
+                  quas adipisci. Vel sint nesciunt quas in recusandae iste
+                  aliquid vitae a nam.
+                </p>
+                <p class="test_name">Natiq Nazir</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <img src="images/2.jpg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+                  architecto magni possimus reiciendis eum eius nihil voluptates
+                  quas adipisci. Vel sint nesciunt quas in recusandae iste
+                  aliquid vitae a nam.
+                </p>
+                <p class="test_name">jay Em</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <img src="images/3.jpg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+                  architecto magni possimus reiciendis eum eius nihil voluptates
+                  quas adipisci. Vel sint nesciunt quas in recusandae iste
+                  aliquid vitae a nam.
+                </p>
+                <p class="test_name">Murtaza Joo</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div>
+                <img src="images/4.jpeg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure
+                  architecto magni possimus reiciendis eum eius nihil voluptates
+                  quas adipisci. Vel sint nesciunt quas in recusandae iste
+                  aliquid vitae a nam.
+                </p>
+                <p class="test_name">Kallu Das</p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#testimonial"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#testimonial"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+    </main>
 
-        <script src="js/style.js"></script>
-    </body>
+    <script src="js/style.js"></script>
+  </body>
 </html>
